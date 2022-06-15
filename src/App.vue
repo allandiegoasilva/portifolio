@@ -1,20 +1,11 @@
 <template>
-  <div class="bg-zinc-900">
-    <MenuHeader/>
-    <MainBody/>
-  </div>
+  <router-view></router-view>
 </template>
 
 <script>
-import MenuHeader from './components/MenuHeader.vue'
-import MainBody from './components/MainBody.vue'
 
 export default {
-  name: 'App',
-  components: {
-    MenuHeader, 
-    MainBody
-  }
+  name: 'App'
 }
 </script>
 
