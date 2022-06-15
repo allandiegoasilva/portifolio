@@ -16,7 +16,7 @@
             </div>
             <div class="flex md:pt-10 pt-4 text-gray-400">
                 <a :href="email" class="px-8 p-3 rounded-full hover:bg-[#292929] transition bg-[#1f1f1f]">Contact</a>
-                <a :href="link.url" v-for="(link, index) in links" :key="index" class="ml-2 flex items-center hover:opacity-70 transition">
+                <a :href="link.url" target="_blank" v-for="(link, index) in links" :key="index" class="ml-2 flex items-center hover:opacity-70 transition">
                 <img :src="link.icon">
                 </a>
             </div>
@@ -37,14 +37,14 @@ export default {
     return {
         name: "Allan Diego", 
         email: "mailto:contato@allandiego.com.br",
-        aboutMe:" I'm a full stack developer with over 3 years of experience, and a student who spends most all of his free time doing open source projects/websites/softwares.",
+        aboutMe:" I'm a full stack developer and cyber security entushiast with over 2 years of experience, and a student who spends most all of his free time playing capture the flags.",
         links: [
             {
               url: "https://github.com/allandiegoasilva",
               icon: "/images/github.svg"
             },
             {
-              url: "https://github.com/allandiegoasilva",
+              url: "https://www.linkedin.com/in/allandiego/",
               icon: "/images/linkedin.svg"
             }
         ]
