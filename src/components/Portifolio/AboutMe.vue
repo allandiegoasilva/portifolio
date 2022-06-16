@@ -6,7 +6,7 @@
                <p class="mt-4 md:w-11/12">
                   I've been playing with development since 2017 (<!-- -->5<!-- --> years) and although I am a full stack developer, I like cyber security more.
                </p>
-               <p class="mt-4 md:w-11/12">I mainly use Node based technologies. On the right, you can see a couple of my favourite technologies, which are also the ones I use in most of my projects.</p>
+               <p class="mt-4 md:w-11/12">The mainly tools that I use is on the right. I have another skills like: PHP, JS, Nginx, Virtual box and anothes.</p>
             </div>
             <div class="justify-center md:w-1/2 flex grid grid-cols-2 gap-4 text-gray-200 font-medium md:mt-0 mt-5">
                <div class="flex justify-center">
