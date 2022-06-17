@@ -6,13 +6,12 @@
             <a class="text-2xl font-bold text-gray-200" href="/">xGodGodx</a>
           </div>
           <div class="flex items-center text-gray-300">
-            <a class="mr-3 font-semibold" href="/projects">Projects</a>
-            <a class="mr-3 font-semibold" href="/blog">Blog</a>
+           <!--  <a class="mr-3 font-semibold" href="/projects">Projects</a> -->
+            <a class="mr-3 font-semibold" target="_blank" href="https://allandiego-xgodgodx.hashnode.dev">Blog</a>
             <a href="mailto:contatoallandiego@gmail.com" class="px-5 font-semibold p-2 transition rounded-full hover:bg-[#262626] bg-[#1f1f1f]">Contact</a>
           </div>
         </div>
       </div>
-
 </template>
 
 <script>

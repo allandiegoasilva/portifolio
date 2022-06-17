@@ -1,19 +1,23 @@
 <template>
-    <div class="hero min-h-screen bg-base-200">
-        <div class="hero-content text-center">
-                <div class="max-w-md">
-                   <img src="/images/cat_htb.jpg" class="border border-gray-900 rounded-full max-h-24 max-w-24"/>
-                   <p class="text-xl font-semibold">Allan Diego (xGodGodx)</p>
-                </div>
+
+    <div class="flex items-center justify-center sticky p-5 top-0 backdrop-blur-lg">
+      <div class="flex md:w-7/12 w-10/12 justify-between">
+          <div class="flex items-center">
+            <a class="text-2xl font-bold text-[#1f1f1f]" href="/">xGodGodx</a>
+          </div>
+          <div class="flex items-center text-gray-300">
+            <a class="mr-3 font-semibold text-[#1f1f1f]" href="/">About Me</a>
+            <a class="mr-3 font-semibold text-[#1f1f1f]" href="/blog">Blog</a>
+            <a href="mailto:contatoallandiego@gmail.com" class="px-5 font-semibold p-2 transition rounded-full hover:bg-[#262626] bg-[#1f1f1f]">Contact</a>
+          </div>
         </div>
-        <hr>
-    </div>
+      </div>
+
 </template>
 
 <script>
 
 export default {
-    name: 'BlogHeader',
-
+  name: 'BlogHeader'
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-       <div class="flex justify-center items-center w-screen mt-20 bg-[#1f1f1f] py-20">
+       <div class="flex justify-center items-center mt-20 bg-[#1f1f1f] py-20">
          <div class="md:flex md:w-7/12 w-10/12 justify-between items-center">
             <div class="md:w-2/3 text-gray-200">
                <p class="text-3xl font-semibold">About Me</p>

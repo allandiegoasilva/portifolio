@@ -1,5 +1,5 @@
 <template>
-    <blog-header/>
+    <BlogHeader/>
 </template>
 
 <script>
